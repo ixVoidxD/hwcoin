@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hwcoin",
+  "version": "1.0.0",
+  "name": "HW Coin Price",
+  "description": "Показывает цену на аукционе в коинах по текущему курсу.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.hwcoin.HwCoinMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
